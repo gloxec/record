@@ -22,9 +22,7 @@ int main()
     setvbuf(stdin, 0, 2, 0);
     setvbuf(stdout, 0, 2, 0);
     setvbuf(stderr, 0, 2, 0);
-    puts("welcome to HBCTF\nThis is a classical pwn:");
     vulfunc();
-    puts("bye~");
     fflush(stdout);
     return 0;
 }
